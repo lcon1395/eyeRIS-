@@ -13,9 +13,14 @@
 		B3C4553B1F79789800A2F808 /* SmartCamera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3C455391F79789800A2F808 /* SmartCamera.xcdatamodeld */; };
 		B3C4553D1F79789800A2F808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C4553C1F79789800A2F808 /* Assets.xcassets */; };
 		B3C455401F79789800A2F808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C4553E1F79789800A2F808 /* LaunchScreen.storyboard */; };
+		B3C4554A1F798B2200A2F808 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B3C455491F798B2200A2F808 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B34C6F641F7D891D002C0D6D /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = ../../home.png; sourceTree = "<group>"; };
+		B34C6F651F7D89B0002C0D6D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ../../back.png; sourceTree = "<group>"; };
+		B34C6F661F7D8A50002C0D6D /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = ../../info.png; sourceTree = "<group>"; };
+		B34C6F671F7D8DA5002C0D6D /* back2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = back2.jpg; path = ../../back2.jpg; sourceTree = "<group>"; };
 		B3C4552F1F79789800A2F808 /* SmartCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C455321F79789800A2F808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3C455341F79789800A2F808 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,14 @@
 		B3C4553C1F79789800A2F808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3C4553F1F79789800A2F808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3C455411F79789800A2F808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C455471F7987E900A2F808 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		B3C455481F798A6900A2F808 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		B3C455491F798B2200A2F808 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		B3D80F851F79A25F00917163 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		B3D80F861F79A37400917163 /* vision.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vision.jpg; sourceTree = "<group>"; };
+		B3D80F871F79A4DE00917163 /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		B3D80F881F79A67800917163 /* eye2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye2.png; sourceTree = "<group>"; };
+		B3D80F891F7AC75700917163 /* mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +53,17 @@
 		B3C455261F79789800A2F808 = {
 			isa = PBXGroup;
 			children = (
+				B3C455491F798B2200A2F808 /* Resnet50.mlmodel */,
 				B3C455311F79789800A2F808 /* SmartCamera */,
 				B3C455301F79789800A2F808 /* Products */,
+				B3D80F861F79A37400917163 /* vision.jpg */,
+				B3D80F871F79A4DE00917163 /* eye.png */,
+				B3D80F881F79A67800917163 /* eye2.png */,
+				B3D80F891F7AC75700917163 /* mic.png */,
+				B34C6F641F7D891D002C0D6D /* home.png */,
+				B34C6F651F7D89B0002C0D6D /* back.png */,
+				B34C6F661F7D8A50002C0D6D /* info.png */,
+				B34C6F671F7D8DA5002C0D6D /* back2.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +81,9 @@
 				B3C455321F79789800A2F808 /* AppDelegate.swift */,
 				B3C455341F79789800A2F808 /* ViewController.swift */,
 				B3C455361F79789800A2F808 /* Main.storyboard */,
+				B3C455481F798A6900A2F808 /* Resnet50.mlmodel */,
+				B3D80F851F79A25F00917163 /* back.jpg */,
+				B3C455471F7987E900A2F808 /* SqueezeNet.mlmodel */,
 				B3C4553C1F79789800A2F808 /* Assets.xcassets */,
 				B3C4553E1F79789800A2F808 /* LaunchScreen.storyboard */,
 				B3C455411F79789800A2F808 /* Info.plist */,
@@ -141,6 +166,7 @@
 			files = (
 				B3C4553B1F79789800A2F808 /* SmartCamera.xcdatamodeld in Sources */,
 				B3C455351F79789800A2F808 /* ViewController.swift in Sources */,
+				B3C4554A1F798B2200A2F808 /* Resnet50.mlmodel in Sources */,
 				B3C455331F79789800A2F808 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
